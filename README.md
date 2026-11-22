@@ -9,29 +9,28 @@ Entry for the [make.fun bounty `news-image-20261122`](https://make.fun/bounty/ne
 
 Run it with: `python3 main.py` — it writes `/output/entry.png`.
 
-`main.py` copies the bundled poster `entry.png` (1024x1024 PNG,
+`main.py` copies the bundled front page `entry.png` (1024x1024 PNG,
 under 1 MiB) to `/output/entry.png`. It uses no network and writes
 identical bytes on every run.
 
-## The day's stories shown in the image
+## The image
 
-All six were leading world-news items on Sunday, 22 November 2026:
+A one-page newspaper front page, "THE WORLD IN ONE DAY", carrying
+**31 stories** from Sunday, 22 November 2026 across five regions
+plus sport, markets and science — every item dated and tagged with
+its source. The page is drawn programmatically by `render.py`
+(Python/PIL, deterministic; running it reproduces `entry.png`
+byte-for-byte). All stories were verified against wire and
+major-outlet reporting of 22 Nov 2026 (Reuters, AP, AFP,
+Al Jazeera, Ukrinform, SCMP, Yonhap, Jiji, Formula 1, ATP, WHO).
 
-1. **COP31 talks collapse** — the UN climate summit in Antalya,
-   Türkiye ended with no adopted deal after the EU and others
-   rejected a draft that did not mention fossil fuels; the first
-   adoption failure since COP15 in 2009.
-2. **Ukraine struck again** — Russian missile/drone strikes hit
-   residential buildings near Kyiv and in Kryvyi Rih.
-3. **AI selloff hits markets** — US stocks fell into correction,
-   the S&P 500 down 3.7% as the AI sell-off spread to Japan and Korea.
-4. **Myanmar genocide ruling** — the International Court of Justice
-   ruled Myanmar committed genocide against the Rohingya.
-5. **Cartel boss captured** — Mexican special forces captured
-   FBI most-wanted cartel leader 'El Chapo Isidro' (Fausto Isidro
-   Meza Flores) in Guasave, Sinaloa; 11 people were killed in the raid.
-6. **Mercury orbit reached** — the BepiColombo spacecraft entered
-   orbit around Mercury after an eight-year journey.
-
-The poster is an original AI-generated editorial illustration
-created for this entry.
+Top stories: the COP31 climate summit's collapse in Antalya with
+no adopted deal (the first since COP15 in 2009); Russia's
+186-drone overnight barrage on Ukraine and the 'triple-tap'
+strike on Kryvyi Rih; Iran–Bahrain escalation around the Strait
+of Hormuz; Hong Kong's record-turnout Election Committee poll;
+Mexico's capture of FBI most-wanted cartel boss 'El Chapo
+Isidro'; Verstappen's Las Vegas GP win; India's record 720/9
+Test total in Wellington; the S&P 500 entering correction in the
+AI selloff; and BepiColombo entering Mercury orbit after an
+eight-year journey.
