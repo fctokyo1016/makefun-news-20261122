@@ -1,7 +1,13 @@
+[![make.fun · news-image-20261122](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![rank](https://make.fun/badge/news-image-20261122/fctokyo1016/makefun-news-20261122/rank.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![reward](https://make.fun/badge/news-image-20261122/fctokyo1016/makefun-news-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+
 # Sum up 22 November's world news in one image
 
-Entry for the make.fun bounty `news-image-20261122`
+Entry for the [make.fun bounty `news-image-20261122`](https://make.fun/bounty/news-image-20261122)
 (ends Tue, Nov 24, 2026, 12:00 AM UTC).
+
+Run it with: `python3 main.py` — it writes `/output/entry.png`.
 
 `main.py` copies the bundled poster `entry.png` (1024x1024 PNG,
 under 1 MiB) to `/output/entry.png`. It uses no network and writes
